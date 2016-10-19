@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1040107682145",
+    "firebase_url": "https://cestino-fbb0a.firebaseio.com",
+    "project_id": "cestino-fbb0a",
+    "storage_bucket": "cestino-fbb0a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1040107682145:android:572d434f4080afdf",
+        "android_client_info": {
+          "package_name": "projettutore.cestino"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1040107682145-lpbrdansd47ridppsej4809smcpdqqgf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "projettutore.cestino",
+            "certificate_hash": "6FE4B6268E77353802EDCCCDB133D54903199111"
+          }
+        },
+        {
+          "client_id": "1040107682145-lk3ldbj1a4s3himjheuq8qcqpn46p3km.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7MfLKnx64JGRNZTAhxRvjipb6ueFW0Co"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1040107682145-lk3ldbj1a4s3himjheuq8qcqpn46p3km.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
