@@ -1,0 +1,111 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#fff"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal|top">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ajouter Nouvelle Liste Achat"
+            android:textSize="20dp"
+            android:textColor="@color/accent_material_light"
+            android:textAlignment="center"
+            android:padding="10dp"/>
+        <android.support.design.widget.CoordinatorLayout
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            >
+            <ImageView
+                android:layout_width="227dp"
+                android:layout_height="200dp"
+                android:id="@+id/image_liste_course"
+                android:src="@drawable/iconn"
+                android:scaleType="centerCrop"
+                android:layout_gravity="center_horizontal|top" />
+            <android.support.design.widget.FloatingActionButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                app:fabSize="mini"
+                app:layout_anchor="@id/image_liste_course"
+                app:layout_anchorGravity="end|bottom|right"
+                app:srcCompat="@drawable/ic_menu_camera"
+                android:id="@+id/floatingActionButton_add_liste_cour"
+                android:layout_weight="0.11"
+                app:backgroundTint="@android:color/holo_green_light" />
+        </android.support.design.widget.CoordinatorLayout>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText"
+            android:gravity="center"
+            android:layout_gravity="center|top"
+            android:layout_marginTop="30dp"
+            android:textSize="20dp"
+            android:hint="nom liste achat"
+            android:padding="5dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:gravity="center"
+            android:ems="10"
+            android:id="@+id/editText2"
+            android:textSize="20dp"
+            android:hint="E-mail or name"
+            android:padding="5dp"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ajouter Liste Achat"
+            android:id="@+id/bnt_add_new_list_1"
+            android:layout_marginTop="50dp"
+            android:background="@color/accent_material_light"
+            android:textColor="#fff"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Envoyer List Achat"
+            android:id="@+id/bnt_add_new_list_2"
+            android:textColor="#fff"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/accent_material_dark"
+            android:layout_margin="5dp" />
+
+
+        <LinearLayout
+            android:id="@+id/layout_signin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+        </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+
+</FrameLayout>
