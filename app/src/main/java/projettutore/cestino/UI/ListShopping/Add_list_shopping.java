@@ -98,7 +98,7 @@ public class Add_list_shopping extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_add_list_shopping);
 
-        createReferences();
+//        createReferences();
 
 
         add_image_liste_ =(FloatingActionButton) findViewById(R.id.floatingActionButton_add_liste_cour) ;
@@ -211,7 +211,7 @@ public void OpenGallery(){
 
         FirebaseStorage storage = FirebaseStorage.getInstance();
         // Create a storage reference from our app
-        storageRef = storage.getReferenceFromUrl("gs://cestino-fbb0a.appspot.com ");
+//        storageRef = storage.getReferenceFromUrl("gs://cestino-fbb0a.appspot.com ");
 
         // imagesRef now points to "images"
         StorageReference imagesRef ;

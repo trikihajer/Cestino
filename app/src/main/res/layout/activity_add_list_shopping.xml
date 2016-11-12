@@ -1,20 +1,20 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:background="#fff"
-    >
-
-    <!-- TODO: Update blank fragment layout -->
-
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:background="@drawable/side_nav_bar"
+ >
 
 
     <LinearLayout
+        xmlns:app="http://schemas.android.com/apk/res-auto"
         android:orientation="vertical"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_gravity="center_horizontal|top">
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:background="#E6ffffff"
+        android:layout_gravity="center"
+        android:padding="20dp">
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -34,7 +34,8 @@
                 android:id="@+id/image_liste_course"
                 android:src="@drawable/iconn"
                 android:scaleType="centerCrop"
-                android:layout_gravity="center_horizontal|top" />
+                android:layout_gravity="center_horizontal|top"
+                android:layout_marginTop="50dp" />
             <android.support.design.widget.FloatingActionButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -45,7 +46,8 @@
                 app:srcCompat="@drawable/ic_menu_camera"
                 android:id="@+id/floatingActionButton_add_liste_cour"
                 android:layout_weight="0.11"
-                app:backgroundTint="@android:color/holo_green_light" />
+
+                app:backgroundTint="@color/accent_material_light" />
         </android.support.design.widget.CoordinatorLayout>
 
         <EditText
@@ -67,20 +69,21 @@
             android:ems="10"
             android:id="@+id/editText2"
             android:textSize="20dp"
-            android:hint="E-mail or name"
+            android:hint="E-mail ou nom"
             android:padding="5dp"
             />
 
         <Button
-            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="ajouter Liste Achat"
             android:id="@+id/bnt_add_new_list_1"
             android:layout_marginTop="50dp"
+            android:layout_gravity="center_horizontal"
             android:background="@color/accent_material_light"
             android:textColor="#fff"
             android:layout_marginLeft="5dp"
-            android:layout_marginRight="5dp" />
+            android:layout_marginRight="5dp"
+            android:layout_width="500dp" />
 
         <Button
             android:layout_width="match_parent"
@@ -104,8 +107,6 @@
 
 
         </LinearLayout>
+        </LinearLayout>
 
 
-
-
-</FrameLayout>
