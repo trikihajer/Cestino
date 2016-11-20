@@ -53,13 +53,13 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/editText"
             android:gravity="center"
             android:layout_gravity="center|top"
             android:layout_marginTop="30dp"
             android:textSize="20dp"
             android:hint="nom liste achat"
-            android:padding="5dp" />
+            android:padding="5dp"
+            android:id="@+id/et_title_liste_shopping" />
 
         <EditText
             android:layout_width="match_parent"
@@ -67,7 +67,7 @@
             android:inputType="textEmailAddress"
             android:gravity="center"
             android:ems="10"
-            android:id="@+id/editText2"
+            android:id="@+id/et_sender_list_"
             android:textSize="20dp"
             android:hint="E-mail ou nom"
             android:padding="5dp"
@@ -93,7 +93,8 @@
             android:textColor="#fff"
             android:layout_gravity="center_horizontal"
             android:background="@color/accent_material_dark"
-            android:layout_margin="5dp" />
+            android:layout_margin="5dp"
+            android:enabled="false"/>
 
 
         <LinearLayout
